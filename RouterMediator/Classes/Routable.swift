@@ -15,7 +15,7 @@ public class RouterMediator {
         return router.routerTarget
     }
 }
- 
+
 /// 路由
 public protocol Routable {
     /// 目标
@@ -33,7 +33,7 @@ public enum RouterTarget {
 public enum MultiRouter: Routable {
     case router(Routable)
 
-    init(_ router: Routable) {
+    public init(_ router: Routable) {
         self = MultiRouter.router(router)
     }
 
