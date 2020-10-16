@@ -1,0 +1,16 @@
+PODS:
+  - RouterMediator (0.1.0)
+
+DEPENDENCIES:
+  - RouterMediator (from `../`)
+
+EXTERNAL SOURCES:
+  RouterMediator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RouterMediator: 12fba5a26302617562b6b48ea1912ea1d8e7a687
+
+PODFILE CHECKSUM: ff319bf77ac3a38e9ed2b0ee2205065fc0015914
+
+COCOAPODS: 1.9.3

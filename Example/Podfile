@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RouterMediator_Example' do
+  pod 'RouterMediator', :path => '../'
+
+  target 'RouterMediator_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
